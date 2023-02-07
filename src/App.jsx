@@ -24,8 +24,7 @@ function App () {
   */
 
   const [artInformation, setArtInformation] = useState({ title: '', artist: '', style_title: '', image_id: '' })
-  // const [loading, setLoading] = useState(true)
-  // const [imageArt, setImageArt] = useState('')
+  const [requestNewArtInfo, setRequestNewArtInfo] = useState(true)
 
   useEffect(() => {
     console.log('inside')
@@ -40,18 +39,16 @@ function App () {
     fetch(API_MUSEUMS, { signal })
       .then(response => response.json())
       .then(data => {
-        // setLoading(() => false)
         setArtInformation((prev) => ({ ...prev, title: data.data[randomPieceOfArt].title, artist: data.data[randomPieceOfArt].artist, style_title: data.data[randomPieceOfArt].style_title, image_id: data.data[randomPieceOfArt].image_id }))
       })
       .catch((err) => {
-        if (err.name === 'AbortError') { console.log('Abort Error') }
-        console.log('Error con client side')
+        if (err.name === 'AbortError') { console.log('Abort Error') } else {
+          console.log('Error con client side')
+        }
       })
-    console.log('out')
-    return () => controller.abort
-  }, [])
-
-  console.log(artInformation)
+    console.log('outside')
+    return () => controller.abort()
+  }, [requestNewArtInfo])
 
   if (!artInformation.title) {
     return (
@@ -60,49 +57,19 @@ function App () {
       </div>
     )
   } else {
-    console.log()
     return (
       <div className='App'>
+        {console.log(`https://www.artic.edu/iiif/2/${artInformation.image_id}/full/843,/0/default.jpg`)}
         <ul>
           {artInformation.title && <li key={artInformation.title}>{artInformation.title}</li>}
           {artInformation.artist && <li key={artInformation.artist}>{artInformation.artist}</li>}
           {artInformation.style_title && <li key={artInformation.style_title}>{artInformation.style_title}</li>}
         </ul>
-        {artInformation.image_id && <img src={`https://www.artic.edu/iiif/2/${artInformation.image_id}/full/843,/0/default.jpg`} alt={artInformation.title} />}
+        {artInformation.image_id && <img key={artInformation.image_id} src={`https://www.artic.edu/iiif/2/${artInformation.image_id}/full/843,/0/default.jpg`} alt={artInformation.title} />}
+        <button onClick={() => { setRequestNewArtInfo((prev) => !prev) }}>Get new image</button>
       </div>
     )
   }
 }
 
 export default App
-/*
-        <ul>
-          {artInformation.map((item, index) => {
-            <li key={`${item.title}-${index}`}>{item}</li>
-          })}
-        </ul>
-*/
-
-/*
-  useEffect(() => {
-    console.log(artInformation.image_id.length)
-    if (artInformation.image_id.length === 0) return
-    console.log('Inside 2nd useEffect')
-    const controller = new AbortController()
-    const signal = controller.signal
-    const API_IMAGES = `https://www.artic.edu/iiif/2/${artInformation.image_id}/full/843,/0/default.jpg`
-    console.log(API_IMAGES)
-
-    fetch(API_IMAGES, { signal })
-      .then(response => response.json())
-      .then(data => {
-        console.log(data)
-        setImageArt(() => data)
-        setLoading(() => false)
-      })
-      .catch((err) => {
-        if (err.name === 'AbortError') { console.log('Abort Error') }
-      })
-
-    return () => controller.abort
-  }, [artInformation.image_id]) */

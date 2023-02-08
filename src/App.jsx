@@ -1,6 +1,6 @@
-
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './App.css'
+import { useGetArtInfo } from './hooks/useGetArtInfo'
 
 function App () {
   /*
@@ -23,32 +23,8 @@ function App () {
       https://www.artic.edu/iiif/2/838d8c33-a3b4-68ea-587b-87ceec2011af/full/843,/0/default.jpg (https://www.artic.edu/iiif/2/{image_id}/full/843,/0/default.jpg)
   */
 
-  const [artInformation, setArtInformation] = useState({ title: '', artist: '', style_title: '', image_id: '' })
   const [requestNewArtInfo, setRequestNewArtInfo] = useState(true)
-
-  useEffect(() => {
-    console.log('inside')
-    const controller = new AbortController()
-    const signal = controller.signal
-
-    const randomPage = Math.floor(Math.random() * 9921 + 1)
-    const randomPieceOfArt = Math.floor(Math.random() * 12 + 1)
-
-    const API_MUSEUMS = `https://api.artic.edu/api/v1/artworks?page=${randomPage}`
-
-    fetch(API_MUSEUMS, { signal })
-      .then(response => response.json())
-      .then(data => {
-        setArtInformation((prev) => ({ ...prev, title: data.data[randomPieceOfArt].title, artist: data.data[randomPieceOfArt].artist, style_title: data.data[randomPieceOfArt].style_title, image_id: data.data[randomPieceOfArt].image_id }))
-      })
-      .catch((err) => {
-        if (err.name === 'AbortError') { console.log('Abort Error') } else {
-          console.log('Error con client side')
-        }
-      })
-    console.log('outside')
-    return () => controller.abort()
-  }, [requestNewArtInfo])
+  const artInformation = useGetArtInfo(requestNewArtInfo)
 
   if (!artInformation.title) {
     return (
@@ -57,13 +33,15 @@ function App () {
       </div>
     )
   } else {
+    const verifyArtInformation = Object.values(artInformation)
+    const isUndefined = verifyArtInformation.some(value => !value)
+    console.log(`Is undefined for: ${isUndefined} artInformation.title: ${artInformation.title} artInformation.artist: ${artInformation.artist} artInformation.image_id: ${artInformation.image_id}`)
     return (
       <div className='App'>
         {console.log(`https://www.artic.edu/iiif/2/${artInformation.image_id}/full/843,/0/default.jpg`)}
         <ul>
           {artInformation.title && <li key={artInformation.title}>{artInformation.title}</li>}
           {artInformation.artist && <li key={artInformation.artist}>{artInformation.artist}</li>}
-          {artInformation.style_title && <li key={artInformation.style_title}>{artInformation.style_title}</li>}
         </ul>
         {artInformation.image_id && <img key={artInformation.image_id} src={`https://www.artic.edu/iiif/2/${artInformation.image_id}/full/843,/0/default.jpg`} alt={artInformation.title} />}
         <button onClick={() => { setRequestNewArtInfo((prev) => !prev) }}>Get new image</button>

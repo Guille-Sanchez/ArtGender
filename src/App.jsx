@@ -1,19 +1,10 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './App.css'
 import { useGetArtInfo } from './hooks/useGetArtInfo'
 
 function App () {
   const [requestNewArtInfo, setRequestNewArtInfo] = useState(true)
-  const artInformation = useGetArtInfo(requestNewArtInfo)
-
-  useEffect(() => {
-    // checkExistanceArtInfo()
-    console.log('ArtInformation APP:', artInformation)
-    if (!artInformation) {
-      console.log('hola')
-      setRequestNewArtInfo((prev) => !prev)
-    }
-  }, [artInformation])
+  const artInformation = useGetArtInfo(requestNewArtInfo, setRequestNewArtInfo)
 
   if (!artInformation.title) {
     return (

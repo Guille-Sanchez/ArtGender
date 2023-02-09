@@ -1,0 +1,408 @@
+[
+    {
+    "id": 16487,
+    "api_model": "artworks",
+    "api_link": "https://api.artic.edu/api/v1/artworks/16487",
+    "is_boosted": true,
+    "title": "The Bay of Marseille, Seen from L'Estaque",
+    "alt_titles": null,
+    "thumbnail": {
+    "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAHx2X15rbk1le1dsfV1wdm9xaWpybnd1YX58ZmRscWJwdIJ1XoJ5Yox/ZZSJb5mIa1NqgVpxiXWDiXeDiHqGjX+Mk4OSmoWTmIqeoo2fpIyeppekoJSlqJmnqAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYINdlGrZdVkVJk6EMAhQ1QJEEhPMcC4OEADs=",
+    "width": 12821,
+    "height": 10275,
+    "alt_text": "Impressionist sea landscape, tan houses, blue ocean, distant mountains."
+    },
+    "main_reference_number": "1933.1116",
+    "has_not_been_viewed_much": false,
+    "boost_rank": null,
+    "date_start": 1880,
+    "date_end": 1890,
+    "date_display": "c. 1885",
+    "date_qualifier_title": "",
+    "date_qualifier_id": null,
+    "artist_display": "Paul Cezanne\nFrench, 1839-1906",
+    "place_of_origin": "France",
+    "dimensions": "80.2 × 100.6 cm (31 5/8 × 39 5/8 in.)",
+    "medium_display": "Oil on canvas",
+    "inscriptions": null,
+    "credit_line": "Mr. and Mrs. Martin A. Ryerson Collection",
+    "catalogue_display": "<p>Rewald 626</p>",
+    "publication_history": "F. Jourdain, Cézanne (Paris, 1914), pl. 42.\n\nJ. Gasquet, “Ce qu’il m’a dit…le motif,” L’Amour de l’Art 1, 8 (December 1920), p. 263 (ill.).\n\nA. Fontainas and L. Vauxcelles, Histoire générale de l’art français (Paris, 1922), p. 235.\n\nDaniel Catton Rich, “Poussin and Cézanne,” Bulletin of The Art Institute of Chicago 24 (December 1930), pp. 114-117 (ill.).\n\nClarence Bulliet, Art Masterpieces vol. 1 (Chicago, 1933), p. 91.\n\nClarence Bulliet, Significant Moderns and Their Pictures (New York, 1936), pl. 14.\n\nJohn Rewald in Amour de l’Art (May 1936), fig. 105.\n\nLionello Venturi, Cézanne: son art – son oeuvre (Paris, 1936), vol. 1, no. 493, vol. 2, pl. 115.\n\nBernard Dorival, Cézanne (New York, 1948), pl. 77.\n\nJosephine Hancock Logan, Sanity in Art (Chciago, 1937), p. 106 (ill.).\n\nBernard Dorival, Cézanne (New York, 1948), p. 76 (ill.).\n\nH. F. MacKenzie, Masterpieces of Painting, XIX Century, in the Collections of The Art Institute of Chicago (Chicago, 1946), pp. 26-27 (ill.).\n\nTheodore Rousseau, Jr., “Cézanne, 1839-1906,” Journal of the American Association of University Women 46, 2 (January 1953), pp. 75-77.\n\nThe Art Institute of Chicago, A Brief Guide to the Collections (The Art Institute of Chicago, 1956), p. 36.\n\nThe Art Institute of Chicago, Paintings in The Art Institute of Chicago: A Catalogue of the Picture Collection (Chicago, 1961), pp. 72, 291 (ill.).\n\nFrederick A. Sweet, “Great Chicago Collectors,” Apollo 84 (September 1966), p. 202.\n\nRené Huyghe, La Relève du reel: impressionnisme, symbolisme (Paris, 1974), p. 195, fig. 171.\n\nDiane Kelder, The Great Book of French Impressionism (New York, 1980), p. 401 (ill.).\n\nMichael Wilson, The Impressionists (Oxford, 1983), pl. 160.\n\nPaul Cézanne, exh. cat. (Madrid, Museo Epañol de Arte Conemporáneo, 1984), p. 234.\n\nBob Niss, “Payson shows 2 ‘gems’,” Portland, Maine, Evening Express (June 7, 1985), p. 10.\n\nRichard R. Brettell, Post-Impressionists (Chicago, 1987), pp. 41-42, ill., 117.\n\nThe Impressionist Tradition: Masterpieces from The Art Institute of Chicago, exh. cat. (Tokyo, Seibu Museum of Art, 1986-87), p. 17.\n\nRichard Verdi, Cézanne (London, 1992), p. 127 (ill.).\n\nHerbert Henkels, “Cézanne en Van Gogh in het Rijksmuseum voor Moderne Kunst in Amsterdam: de collectie van Cornelis Hoogendijk (1866-1911),” Bulletin van het Rijksmuseum 41, 3-4 (1993), p. 221 (ill.).\n\nIsabelle Cahn, Paul Cézanne: L’art et la manière (Paris, 1994), p. 65 (ill.).\n\nJohn Rewald, The Paintings of Paul Cézanne: A Catalogue Raisonné (New York, 1996), vol. 1, p. 57, pl. 51, p. 412, no. 626, vol. 2., p. 211 (ill.).\n\nPhilip Conisbee and Denis Coutagne, Cézanne in Provance, exh. cat. (Washington: National Gallery of Art; Aix-en-Provence: Musée Granet; Paris: Reunion de musées nationaux, 2006), 15, 55, 134–35, 154 cat. 49, 319.\n\nThe Age of Impressionism at the Art Institute of Chicago (New Haven and London, 2008), cat. 63, pp. 134–35 (ill.).\nKatherine Sachs, \"Cezanne and Marden: The Almost Perfect Painting,\" Cézanne and Beyond, Exh, cat (Philadelphia Museum of Art,  2009), Pl. 197, p. 502.\n\nAchim Borchardt-Hume, Gloria Groom, Caitlin Haskell and Natalia Sidlina, eds., Cezanne, exh. cat. (Chicago: Art Institute of Chicago, 2022), 38, 151 cat. 79.\n\nMadeleine-Perdrillat, Alain. “À Propos Des Vues De La Mer à L'estaque Par Cezanne.” Société Cezanne, January 2023. <<a href=\"https://www.societe-cezanne.fr/2023/02/06/a-propos-des-vues-de-la-mer-a-lestaque-par-cezanne-alain-madeleine-perdrillat/\">https://www.societe-cezanne.fr/2023/02/06/a-propos-des-vues-de-la-mer-a-lestaque-par-cezanne-alain-madeleine-perdrillat/</a>>",
+    "exhibition_history": "Amsterdam, Stedelijk Museum, Moderne Kunst Kring, 1911, no cat. no.\n\nHamburg, Galerie Commeter, 1921, no cat. no.\n\nNew York, Museum of Modern Art, First Loan Exhibition, Cézanne, Gauguin, Seurat, Van Gogh, November 1929, cat. 18 (ill.).\n\nThe Art Institute of Chicago, A Century of Progress, Exhibition of Paintings and Sculpture, June 1-November 1, 1933, cat. 309 (ill.).\n\nPhiladelphia, Pennsylvania Museum of Art, Cézanne, 1934, cat. 26.\n\nThe Art Institute of Chicago, A Century of Progress, Exhibition of Paintings and Sculpture, June 1-November 1, 1934, cat. 293.\n\nThe Art Institute of Chicago, Masterpiece of the Month, June 1942, no cat.\n\nThe Art Institute of Chicago, Cézanne: Paintings, Watercolors, and Drawings: A Loan Exhibition, February 1-March 16, 1952, cat. 50 (ill.), traveled to New York, Metropolitan Museum of Art, April 4-May 18, 1952.\n\nSeattle World’s Fair, Masterpieces of Art, April 21-September 4, 1962, cat. 50 (ill.).\n\nWashington, D. C., The Phillips Collection, Cézanne: An Exhibition in Honor of the Fiftieth Anniversary of the Phillips Collection, February 27-March 28, 1971, cat. 21 (ill.), traveled to The Art Institute of Chicago, April 17-May 16, 1971 and Boston, Museum of Fine Arts, June 1-July 3, 1971.\n\nThe Art Institute of Chicago, The Artist Looks at the Landscape, June 22-August 25, 1974, no cat.\n\nAlbi, Musée Toulouse-Lautrec, Trésors impressionnistes du Musée de Chicago, June 27-August 31, 1980, cat. 35 (ill.).\n \nLos Angeles County Museum of Art, A Day in the Country: Impressionism and the French Landscape, June 28-September 16, 1984, cat. 129 (ill.), traveled to The Art Institute of Chicago, October 23, 1984-January 6, 1985 and Paris, Galeries nationales du Grand Palais, February 8-April 22, 1985.\n\nPortland, Westbrook College, Joan Whitney Payson Gallery, May 1-September 29, 1985, no cat.\n\nEdinburgh, National Gallery of Scotland, Cézanne and Poussin: The Classical Vision of Landscape, August 9-October 21, 1990, cat. 45 (ill.).\n\nParis, Galeries nationales du Grand Palais, Cézanne, September 25, 1995-January 7, 1996, cat. 114; London, Tate Gallery, February 8-April 28, 1996; Philadelphia Museum of Art, May 26-August 18, 1996.\n\nSt. Petersburg, The State Hermitage Museum, Cézanne and the Russian Avant-Garde of the XX Century, August 8-September 24, 1998, cat. 20 (ill.); Moscow, The Pushkin State Museum of Fine Arts, October 5-November 15, 1998.\n\nWashington, DC, National Gallery of Art, Cézanne in Provence, January 29–May 7, cat. 49, 2006; Aix-en-Provence, Musée Granet, June 9–September 7, 2006.\n\nNew York, Metropolitan Museum of Art, Cézanne to Picasso Ambroise Vollard, Patron of the Avant-Garde, September 13, 2006-January 7, 2007, cat. 37 (ill.); Art Institute of Chicago, February 17-May 13, 2007; Paris, Musée d’Orsay, June 18-Spetember 16, 2007. \n\nFort Worth, Tex., Kimbell Museum of Art, The Impressionists: Master Paintings from the Art Institute of Chicago, June 29–November 2, 2008, cat. 63 (ill.).\n\nPhiladelphia, PA, Philadelphia Museum of Art, Cézanne and Beyond, February 9- May 6 2009, Plate 197.\n\nArt Institute of Chicago, Cezanne, May 15-Sep. 5, 2022, cat. 79; London, Tate, Oct. 5, 2022-Mar. 12, 2023.",
+    "provenance_text": "Bought from the artist by Ambroise Vollard, Paris ca. 1899 [according to New York 2006-7]; sold to Cornelis Hoogendijk (died 1911), Amsterdam, possibly in May 1899 [according to New York 2006-7, see Musée d’Orsay, Fonds Vollard, MS 421 (4,3) fol 31, May 17, 1899, copy in curatorial file]; by descent to Hoogendijk's heirs and on deposit at the Rijksmuseum, Amsterdam [see Henkels 1993]; sold in shares to Paul Rosenberg, Jos Hessel, and Durand-Ruel, Paris, 1920 [according to New York 2006-7]; sold through Jos Hessel to Martin A. Ryerson (died 1932), Chicago on June 12, 1920 [see purchase receipt, copy in curatorial file]; bequeathed to the Art Institute, 1933.",
+    "publishing_verification_level": "Web Cataloged",
+    "internal_department_id": 14,
+    "fiscal_year": 1933,
+    "fiscal_year_deaccession": null,
+    "is_public_domain": true,
+    "is_zoomable": true,
+    "max_zoom_window_size": -1,
+    "copyright_notice": null,
+    "has_multimedia_resources": false,
+    "has_educational_resources": false,
+    "has_advanced_imaging": false,
+    "colorfulness": 0,
+    "color": {
+    "h": 194,
+    "l": 58,
+    "s": 10,
+    "percentage": 0.0017550281994393705,
+    "population": 2312
+    },
+    "latitude": null,
+    "longitude": null,
+    "latlon": null,
+    "is_on_view": false,
+    "on_loan_display": "<p>On loan to Tate Modern in London for <i>Cezanne</i></p>",
+    "gallery_title": null,
+    "gallery_id": null,
+    "artwork_type_title": "Painting",
+    "artwork_type_id": 1,
+    "department_title": "Painting and Sculpture of Europe",
+    "department_id": "PC-10",
+    "artist_id": 40482,
+    "artist_title": "Paul Cezanne",
+    "alt_artist_ids": [],
+    "artist_ids": [
+    40482
+    ],
+    "artist_titles": [
+    ""
+    ],
+    "category_ids": [
+    "PC-10",
+    "PC-831"
+    ],
+    "category_titles": [
+    "Painting and Sculpture of Europe",
+    "Essentials"
+    ],
+    "term_titles": [
+    "oil on canvas",
+    "oil painting",
+    "Post-Impressionism",
+    "oil paint (paint)",
+    "Century of Progress",
+    "painting (image making)",
+    "painting",
+    "european painting",
+    "water",
+    "weather/seasons",
+    "landscapes",
+    "world's fairs",
+    "Chicago World's Fairs"
+    ],
+    "style_id": "TM-7547",
+    "style_title": "Post-Impressionism",
+    "alt_style_ids": [],
+    "style_ids": [
+    "TM-7547"
+    ],
+    "style_titles": [
+    "Post-Impressionism"
+    ],
+    "classification_id": "TM-66",
+    "classification_title": "oil on canvas",
+    "alt_classification_ids": [
+    "TM-9",
+    "TM-54"
+    ],
+    "classification_ids": [
+    "TM-66",
+    "TM-9",
+    "TM-54"
+    ],
+    "classification_titles": [
+    "oil on canvas",
+    "painting",
+    "european painting"
+    ],
+    "subject_id": "TM-12169",
+    "alt_subject_ids": [
+    "TM-8681",
+    "TM-10095",
+    "TM-8657",
+    "TM-11299",
+    "TM-12176"
+    ],
+    "subject_ids": [
+    "TM-12169",
+    "TM-8681",
+    "TM-10095",
+    "TM-8657",
+    "TM-11299",
+    "TM-12176"
+    ],
+    "subject_titles": [
+    "Century of Progress",
+    "water",
+    "weather/seasons",
+    "landscapes",
+    "world's fairs",
+    "Chicago World's Fairs"
+    ],
+    "material_id": "TM-2451",
+    "alt_material_ids": [],
+    "material_ids": [
+    "TM-2451"
+    ],
+    "material_titles": [
+    "oil paint (paint)"
+    ],
+    "technique_id": "TM-4273",
+    "alt_technique_ids": [
+    "TM-3891"
+    ],
+    "technique_ids": [
+    "TM-4273",
+    "TM-3891"
+    ],
+    "technique_titles": [
+    "oil painting",
+    "painting (image making)"
+    ],
+    "theme_titles": [
+    "Essentials"
+    ],
+    "image_id": "",
+    "alt_image_ids": [],
+    "document_ids": [],
+    "sound_ids": [],
+    "video_ids": [],
+    "text_ids": [],
+    "section_ids": [],
+    "section_titles": [],
+    "site_ids": [],
+    "suggest_autocomplete_boosted": "The Bay of Marseille, Seen from L'Estaque",
+    "suggest_autocomplete_all": [
+    {
+    "input": [
+    "1933.1116"
+    ],
+    "contexts": {
+    "groupings": [
+    "accession"
+    ]
+    }
+    },
+    {
+    "input": [
+    "The Bay of Marseille, Seen from L'Estaque"
+    ],
+    "weight": 38063,
+    "contexts": {
+    "groupings": [
+    "title"
+    ]
+    }
+    }
+    ],
+    "source_updated_at": "2023-02-09T00:30:07-06:00",
+    "updated_at": "2023-02-09T00:32:46-06:00",
+    "timestamp": "2023-02-09T04:09:07-06:00"
+    },
+    {
+        "id": 129884,
+        "api_model": "artworks",
+        "api_link": "https://api.artic.edu/api/v1/artworks/129884",
+        "is_boosted": true,
+        "title": "Starry Night and the Astronauts",
+        "alt_titles": null,
+        "thumbnail": {
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABw/Zhg/aBRBaBZBahRCaxxBahxEahNIchZJcR9LdB9OdiZIZSBEbShLbjxRZyBPeipRcSpReUpWaitXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoMJIDhJAywAcAlEkxhNNTQgAOw==",
+        "width": 5376,
+        "height": 6112,
+        "alt_text": "Abstract painting composed of small vertical dabs of multiple shades of blue with a small area of similar strokes of red, orange, and yellow in the upper right."
+        },
+        "main_reference_number": "1994.36",
+        "has_not_been_viewed_much": false,
+        "boost_rank": 1,
+        "date_start": 1972,
+        "date_end": 1972,
+        "date_display": "1972",
+        "date_qualifier_title": "",
+        "date_qualifier_id": null,
+        "artist_display": "Alma Thomas\nAmerican, 1891–1978",
+        "place_of_origin": "United States",
+        "dimensions": "152.4 × 134.6 cm (60 × 53 in.)",
+        "medium_display": "Acrylic on canvas",
+        "inscriptions": null,
+        "credit_line": "Purchased with funds provided by Mary P. Hines in memory of her mother, Frances W. Pick",
+        "catalogue_display": null,
+        "publication_history": null,
+        "exhibition_history": null,
+        "provenance_text": null,
+        "publishing_verification_level": "Web Basic",
+        "internal_department_id": 246,
+        "fiscal_year": 1994,
+        "fiscal_year_deaccession": null,
+        "is_public_domain": false,
+        "is_zoomable": true,
+        "max_zoom_window_size": -1,
+        "copyright_notice": null,
+        "has_multimedia_resources": false,
+        "has_educational_resources": true,
+        "has_advanced_imaging": false,
+        "colorfulness": 53.6375,
+        "color": {
+        "h": 45,
+        "l": 49,
+        "s": 94,
+        "percentage": 0.0035946655163737015,
+        "population": 29
+        },
+        "latitude": 41.8805769576144,
+        "longitude": -87.6218733015747,
+        "latlon": "41.880576957614,41.880576957614",
+        "is_on_view": true,
+        "on_loan_display": null,
+        "gallery_title": "Gallery 291",
+        "gallery_id": 25468,
+        "artwork_type_title": "Painting",
+        "artwork_type_id": 1,
+        "department_title": "Contemporary Art",
+        "department_id": "PC-8",
+        "artist_id": 44708,
+        "artist_title": "Alma Thomas",
+        "alt_artist_ids": [],
+        "artist_ids": [
+        44708
+        ],
+        "artist_titles": [
+        "Alma Thomas"
+        ],
+        "category_ids": [
+        "PC-8",
+        "PC-142",
+        "PC-825",
+        "PC-830"
+        ],
+        "category_titles": [
+        "Contemporary Art",
+        "African American artists",
+        "Women artists",
+        "African Diaspora"
+        ],
+        "term_titles": [
+        "painting",
+        "painting (image making)",
+        "acrylic paint",
+        "patterns",
+        "contemporary",
+        "canvas",
+        "blue (color)",
+        "red (color)",
+        "orange (color)",
+        "yellow (color)",
+        "modern and contemporary art"
+        ],
+        "style_id": "TM-12062",
+        "style_title": "contemporary",
+        "alt_style_ids": [],
+        "style_ids": [
+        "TM-12062"
+        ],
+        "style_titles": [
+        "contemporary"
+        ],
+        "classification_id": "TM-9",
+        "classification_title": "painting",
+        "alt_classification_ids": [
+        "TM-155"
+        ],
+        "classification_ids": [
+        "TM-9",
+        "TM-155"
+        ],
+        "classification_titles": [
+        "painting",
+        "modern and contemporary art"
+        ],
+        "subject_id": "TM-12793",
+        "alt_subject_ids": [
+        "TM-11843",
+        "TM-11851",
+        "TM-11905",
+        "TM-11842"
+        ],
+        "subject_ids": [
+        "TM-12793",
+        "TM-11843",
+        "TM-11851",
+        "TM-11905",
+        "TM-11842"
+        ],
+        "subject_titles": [
+        "patterns",
+        "blue (color)",
+        "red (color)",
+        "orange (color)",
+        "yellow (color)"
+        ],
+        "material_id": "TM-2407",
+        "alt_material_ids": [
+        "TM-3124"
+        ],
+        "material_ids": [
+        "TM-2407",
+        "TM-3124"
+        ],
+        "material_titles": [
+        "acrylic paint",
+        "canvas"
+        ],
+        "technique_id": "TM-3891",
+        "alt_technique_ids": [],
+        "technique_ids": [
+        "TM-3891"
+        ],
+        "technique_titles": [
+        "painting (image making)"
+        ],
+        "theme_titles": [
+        "African American artists",
+        "Women artists",
+        "African Diaspora"
+        ],
+        "image_id": "e966799b-97ee-1cc6-bd2f-a94b4b8bb8f9",
+        "alt_image_ids": [],
+        "document_ids": [
+        "0779b4bd-296f-671f-215e-129f2101ad07"
+        ],
+        "sound_ids": [],
+        "video_ids": [],
+        "text_ids": [
+        "0779b4bd-296f-671f-215e-129f2101ad07"
+        ],
+        "section_ids": [],
+        "section_titles": [],
+        "site_ids": [],
+        "suggest_autocomplete_boosted": "Starry Night and the Astronauts",
+        "suggest_autocomplete_all": [
+        {
+        "input": [
+        "1994.36"
+        ],
+        "contexts": {
+        "groupings": [
+        "accession"
+        ]
+        }
+        },
+        {
+        "input": [
+        "Starry Night and the Astronauts"
+        ],
+        "weight": 35074,
+        "contexts": {
+        "groupings": [
+        "title"
+        ]
+        }
+        }
+        ],
+        "source_updated_at": "2022-11-03T09:36:23-05:00",
+        "updated_at": "2023-02-08T23:09:37-06:00",
+        "timestamp": "2023-02-09T05:24:34-06:00"
+    }
+]

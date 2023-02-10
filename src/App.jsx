@@ -1,6 +1,5 @@
 import './App.css'
 import ArtistInformation from './components/ArtistInformation.jsx'
-import ProbableCountry from './components/ProbableCountry.jsx'
 
 function App () {
   return (
@@ -9,7 +8,6 @@ function App () {
       <main className='main-container'>
         <div className='App'>
           <ArtistInformation />
-          <ProbableCountry />
         </div>
       </main>
       <footer>Website made by Chicho</footer>

@@ -36,6 +36,12 @@ header > h1 {
   object-fit: cover;
 }
 
+.artist-information {
+  display: grid;
+  place-items: center;
+}
+
+
 @media (max-width: 450px) {
   .art-piece  img {
     width: 280px;

@@ -1,40 +1,33 @@
 import { useEffect, useState } from 'react'
-import checkExistenceArtInfo from '../services/checkExistanceArtInfo'
+import checkArtInfoData from '../services/checkArtInfoData'
 import { getArtInfo } from '../services/getArtInfo'
 
 /*
   Requests Information to API. Once it recieves the information, it checks it for null and undefined.
-  If all items are present. The state is set.
+  If all items are present, the state is set. Otherwise, it request another set of information to API.
 */
+async function FetchData (setArtInformation, setRequestNewArtInfo, signal) {
+  const ART_INFO = await getArtInfo({ signal })
+
+  if (ART_INFO) {
+    if (checkArtInfoData(ART_INFO)) {
+      setRequestNewArtInfo((prev) => !prev)
+    } else {
+      setArtInformation(() => ({ ...ART_INFO }))
+    }
+  }
+}
 
 export function useGetArtInfo (requestNewArtInfo, setRequestNewArtInfo) {
   const [artInformation, setArtInformation] = useState({ title: '', artist: '', image_id: '' })
   useEffect(() => {
-    async function FetchData () {
-      const randomPage = Math.floor(Math.random() * 9921 + 1)
-      const randomPieceOfArt = Math.floor(Math.random() * 11 + 1)
-
-      const API_MUSEUMS = `https://api.artic.edu/api/v1/artworks?page=${randomPage}`
-      const ART_INFO = await getArtInfo({ API_MUSEUMS, signal, randomPieceOfArt })
-
-      if (ART_INFO) {
-        if (checkExistenceArtInfo(ART_INFO)) {
-          setRequestNewArtInfo((prev) => !prev)
-        } else {
-          // console.log('LLego a set', ART_INFO)
-          setArtInformation(() => ({ ...ART_INFO }))
-        }
-      }
-    }
-
     const controller = new AbortController()
     const signal = controller.signal
 
-    FetchData()
+    FetchData(setArtInformation, setRequestNewArtInfo, signal)
 
     return () => controller.abort()
   }, [requestNewArtInfo])
-  // console.log('art information que retorna del custom hook', artInformation)
   return artInformation
 }
 

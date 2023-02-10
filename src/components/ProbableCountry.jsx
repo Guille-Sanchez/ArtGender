@@ -20,7 +20,11 @@ function ProbableCountry ({ artistName }) {
 
   if (probableCountry.country_id.length > 0) {
     return (
-      <div>{`${artistName} ${probableCountry.country_id} ${probableCountry.probability * 100}%`}</div>
+      <>
+        <p>{`Artist: ${artistName}`}</p>
+        <p>{`Guessed nationality by considering first name only: ${probableCountry.country_id}`}</p>
+        <p>{`Accuracy of guess: ${(probableCountry.probability * 100).toFixed(1)}%`}</p>
+      </>
     )
   } else {
     return (

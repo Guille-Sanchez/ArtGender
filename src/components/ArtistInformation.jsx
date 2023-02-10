@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useGetArtInfo } from '../hooks/useGetArtInfo'
+import ProbableCountry from './ProbableCountry.jsx'
 
 function ArtistInformation () {
   const [requestNewArtInfo, setRequestNewArtInfo] = useState(true)
@@ -21,7 +22,7 @@ function ArtistInformation () {
             />
           </li>
           <li key={artInformation.artist}>
-            <div>{artInformation.artist}</div>
+            <ProbableCountry artistName={artInformation.artist} />
           </li>
         </ul>
         <button onClick={() => { setRequestNewArtInfo((prev) => !prev) }}>Get new image</button>

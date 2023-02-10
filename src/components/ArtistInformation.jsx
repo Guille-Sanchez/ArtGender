@@ -22,7 +22,7 @@ function ArtistInformation () {
             />
           </li>
           <li key={artInformation.artist}>
-            <ProbableCountry artistName={artInformation.artist} />
+            <ProbableCountry artistName={artInformation.artist.split(' ')[0]} />
           </li>
         </ul>
         <button onClick={() => { setRequestNewArtInfo((prev) => !prev) }}>Get new image</button>

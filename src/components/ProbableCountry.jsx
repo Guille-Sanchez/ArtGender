@@ -20,7 +20,7 @@ function ProbableCountry ({ artistName }) {
 
   if (probableCountry.country_id.length > 0) {
     return (
-      <div>{`${artistName} ${probableCountry.country_id} ${probableCountry.probability}`}</div>
+      <div>{`${artistName} ${probableCountry.country_id} ${probableCountry.probability * 100}%`}</div>
     )
   } else {
     return (
